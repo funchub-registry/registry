@@ -13,7 +13,7 @@
 
                                                                               ],
                                                              "released_at":  "2026-06-26T00:00:00.000Z",
-                                                             "source_ref":  "v1.0.0"
+                                                             "source_ref":  "master"
                                                          }
                                                      ],
                                         "entry_point":  "demo-tools/python-tool/hello_tool:hello_greeter",
