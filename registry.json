@@ -16,7 +16,7 @@
                                                              "source_ref":  "v1.0.0"
                                                          }
                                                      ],
-                                        "entry_point":  "hello_tool:hello_greeter",
+                                        "entry_point":  "demo-tools/python-tool/hello_tool:hello_greeter",
                                         "parameters":  {
                                                            "properties":  {
                                                                               "name":  {
