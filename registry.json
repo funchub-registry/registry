@@ -1,1 +1,46 @@
-{"tools":{}}
+{
+    "tools":  {
+                  "hello_greeter":  {
+                                        "author":  "guorui999",
+                                        "name":  "hello_greeter",
+                                        "description":  "Generate a personalized greeting message based on name and language",
+                                        "versions":  [
+                                                         {
+                                                             "version":  "1.0.0",
+                                                             "is_prerelease":  false,
+                                                             "source_repo":  "https://github.com/guorui999/func-hub",
+                                                             "dependencies":  [
+
+                                                                              ],
+                                                             "released_at":  "2026-06-26T00:00:00.000Z",
+                                                             "source_ref":  "v1.0.0"
+                                                         }
+                                                     ],
+                                        "entry_point":  "hello_tool:hello_greeter",
+                                        "parameters":  {
+                                                           "properties":  {
+                                                                              "name":  {
+                                                                                           "type":  "string",
+                                                                                           "description":  "The person\u0027s name to greet"
+                                                                                       },
+                                                                              "language":  {
+                                                                                               "enum":  [
+                                                                                                            "en",
+                                                                                                            "zh",
+                                                                                                            "ja",
+                                                                                                            "fr",
+                                                                                                            "de"
+                                                                                                        ],
+                                                                                               "default":  "en",
+                                                                                               "description":  "Language code",
+                                                                                               "type":  "string"
+                                                                                           }
+                                                                          },
+                                                           "type":  "object",
+                                                           "required":  [
+                                                                            "name"
+                                                                        ]
+                                                       }
+                                    }
+              }
+}
