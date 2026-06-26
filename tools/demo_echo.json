@@ -1,0 +1,33 @@
+{
+  "name": "demo_echo",
+  "description": "Echo back the input message with optional prefix",
+  "parameters": {
+    "type": "object",
+    "properties": {
+      "message": {
+        "type": "string",
+        "description": "The message to echo"
+      },
+      "prefix": {
+        "type": "string",
+        "description": "Optional prefix",
+        "default": ""
+      }
+    },
+    "required": [
+      "message"
+    ]
+  },
+  "author": "guorui999",
+  "entry_point": "echo_tool:echo_message",
+  "versions": [
+    {
+      "version": "1.0.0",
+      "source_repo": "",
+      "source_ref": "v1.0.0",
+      "dependencies": [],
+      "released_at": "2026-06-26T04:50:22.448079+00:00",
+      "is_prerelease": false
+    }
+  ]
+}
