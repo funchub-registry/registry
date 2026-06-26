@@ -41,6 +41,41 @@
                                                                             "name"
                                                                         ]
                                                        }
-                                    }
+                                    },
+                  "demo_echo":  {
+                                    "author":  "guorui999",
+                                    "name":  "demo_echo",
+                                    "description":  "Echo back the input message with optional prefix",
+                                    "versions":  [
+                                                     {
+                                                         "version":  "1.0.0",
+                                                         "is_prerelease":  false,
+                                                         "source_repo":  "https://github.com/guorui999/func-hub",
+                                                         "dependencies":  [
+
+                                                                          ],
+                                                         "released_at":  "2026-06-26T12:00:00.000Z",
+                                                         "source_ref":  "master"
+                                                     }
+                                                 ],
+                                    "entry_point":  "echo_tool:echo_message",
+                                    "parameters":  {
+                                                       "properties":  {
+                                                                          "prefix":  {
+                                                                                         "description":  "Optional prefix",
+                                                                                         "default":  "",
+                                                                                         "type":  "string"
+                                                                                     },
+                                                                          "message":  {
+                                                                                          "type":  "string",
+                                                                                          "description":  "The message to echo"
+                                                                                      }
+                                                                      },
+                                                       "type":  "object",
+                                                       "required":  [
+                                                                        "message"
+                                                                    ]
+                                                   }
+                                }
               }
 }
