@@ -1,0 +1,21 @@
+{
+  "name": "time_now",
+  "description": "Get current server time in UTC (ISO format + timestamp)",
+  "parameters": {
+    "type": "object",
+    "properties": {},
+    "required": []
+  },
+  "author": "guorui999",
+  "entry_point": "index:time_now",
+  "versions": [
+    {
+      "version": "1.0.0",
+      "source_repo": "https://github.com/guorui999/time_now_tool.git",
+      "source_ref": "v1.0.0",
+      "dependencies": [],
+      "released_at": "2026-06-26T08:05:00.401813+00:00",
+      "is_prerelease": false
+    }
+  ]
+}
